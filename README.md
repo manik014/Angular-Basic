@@ -11,9 +11,9 @@
   #  private employeeComponent: EmployeeComponent;
     The selector of the EmployeeComponent will be used in  parent component HTML template.
     
-   EX: Directives using @ViewChild
-     # @ViewChild(ColorDirective)
-     # private colorDirective: ColorDirective;
+   EX: Directives using @ViewChild.
+      @ViewChild(ColorDirective)
+      private colorDirective: ColorDirective;
      The selector name of directive CpColorDirective will be used in host element of DOM layout in parent component HTML template. 
      
   EX: Template Reference
