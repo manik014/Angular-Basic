@@ -17,8 +17,8 @@
      The selector name of directive CpColorDirective will be used in host element of DOM layout in parent component HTML template. 
      
   EX: Template Reference
-      # <input type="text" #title>          --------parent component
-      #  @ViewChild('title') 
-      #   private elTitle : ElementRef; 
+      <input type="text" #title>        
+        @ViewChild('title') 
+        private elTitle : ElementRef; 
       we will use multiple @ViewChild() in parent component. 
      
