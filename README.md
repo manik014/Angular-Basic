@@ -22,3 +22,10 @@
         private elTitle : ElementRef; 
       we will use multiple @ViewChild() in parent component. 
      
+  # Renderer2 
+  
+    It is used for UI rendering manipulation. Using Renderer2, we can create element, provide a text and then it can be appended with any existing element at run time on any event of an element.
+    
+    We can add and remove CSS classes, styles, HTML attributes using Renderer2 to change the UI. We can also set DOM property with a value at run time using Renderer2.
+    
+    We can append and remove a child element within a parent element using Renderer2. It can also be used to add a HTML comment to a given parent element. We can also bind an element to listen event using Renderer2.
